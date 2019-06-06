@@ -1,0 +1,28 @@
+#neira-dashboard-wrap .nav-tab-wrapper {padding-top: 36px;margin-bottom: 24px;}
+#neira-dashboard-wrap .content:nth-child(5) {margin-right: 2%;}
+.customize-control-title {font-size: 13px;}
+#customize-control-neira_entry_excerpt input[type="text"] {width: 20%;}
+#customize-control-neira_entry_excerpt, #customize-control-background_color, #customize-control-neira_lite_topbar_menu_color, #customize-control-neira_ctboxes_one_image, #customize-control-neira_ctboxes_two_image, #customize-control-neira_ctboxes_three_image {border-bottom: 1px solid rgba(0,0,0,.1);padding: 0 0 20px;margin-bottom: 15px;}
+#customize-info, #customize-theme-controls > ul > .accordion-section:first-child {background: #f25d46;color: #fff;}
+#widget-list [id*='_neira'] .widget-top, #widget-list [id*="_neira"] .widget-title h3 {background: #f25d46;color: #fff;}
+#widget-list [id*='_neira'] .widget-top .toggle-indicator {color: #fff;}
+#available-widgets-list [id*="neira-"].widget-tpl, #available-widgets-list [id*="neira_lite_"].widget-tpl {background: #f25d46;color: #fff;}
+#available-widgets-list [id*="neira-"].widget-tpl:hover, #available-widgets-list [id*="neira_lite_"].widget-tpl:hover {background: #f68978;color: #fff;}
+#available-widgets-list [id*="neira-"] .widget-top, #available-widgets [id*="neira-"] .widget .widget-description, #available-widgets-list [id*="neira_lite_"] .widget-top, #available-widgets [id*="neira_lite_"] .widget .widget-description {color: #fff;}
+.widget-separator {font-size: 18px;font-weight: 600;border-bottom: 2px solid #ddd;}
+#ct_neira_lite_video .inside {padding: 0;margin: 0;}
+#ct_neira_lite_video .description {padding: 6px 12px 12px 24px;}
+.ct_neira_lite_video_input_container {padding: 24px 24px 12px;}
+.ct_neira_lite_video_input_container label {margin-right: 46px;font-weight: 700;}
+.ct_neira_lite_video_input_container div {position: relative;display: inline-block;}
+.ct_neira_lite_video_input_container div svg {position: absolute;top: 3px;padding: 5px;right: 3px;background: rgba(255,255,255,.8);opacity: 0;transition: opacity .2s ease;-webkit-transition: opacity .2s ease;-moz-transition: opacity .2s ease;-o-transition: opacity .2s ease;-ms-transition: opacity .2s ease;}
+.ct_neira_lite_video_input_container.has-vid svg {opacity: 1;-moz-opacity: 0;-webkit-opacity: 0;}
+.ct_neira_lite_video_preview_container {position: relative;padding: 24px;text-align: center;min-height: 300px;border: dashed 4px #e1eced;background: #f2f9fa;}
+.ct_neira_lite_video_preview_container label {position: absolute;top: 45%;left: 0;right: 0;display: block;font-size: 24px;color: #c9d2d4;text-transform: uppercase;letter-spacing: .14em;}
+.ct_neira_lite_video_preview_container.has-vid {min-height: 0;border: none;border-bottom: solid 1px #e5e5e5;background: none;}
+.ct_neira_lite_video_preview_container .loading {position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: rgba(67,179,196,.4);opacity: 0;text-align: center;visibility: hidden;-webkit-transition: all .3s ease;transition: all .3s ease;}
+.ct_neira_lite_video_preview_container .loading svg {position: absolute;right: 47%;top: 38%;animation: spin 2s linear infinite;-webkit-animation: spin 2s linear infinite;}
+.ct_neira_lite_video_preview_container.ajax-loading .loading {visibility: visible;opacity: 1;-moz-opacity: 1;-webkit-opacity: 1;}
+@-ms-keyframes spin {100% {-ms-transform: rotate(360deg);transform: rotate(360deg);}}
+@-webkit-keyframes spin {100% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}}
+@keyframes spin {100% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}}
